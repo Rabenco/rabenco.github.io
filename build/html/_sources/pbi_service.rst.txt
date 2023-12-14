@@ -37,8 +37,10 @@ L’interface utilisateur de Power BI Service est clair, fonctionnel, structuré
   Elle permet de visualiser les derniers contenus utilisés par les membres de l’équipe, qu’il s’agisse d’un espace de travail, d’un tableau de bord, d’un rapport ou encore d’un jeu de données.
 
 * **La fonction « Créer »**
-  Il est possible de créer des rapports sur Power BI Service, bien qu’il ne s’agisse pas de sa fonction première. Pour créer un rapport sur Power BI Service, il existe **deux méthodes**.
+  Il est possible de créer des rapports sur Power BI Service, bien qu’il ne s’agisse pas de sa fonction première. Pour créer un rapport sur Power BI Service, il existe **deux méthodes**:
+
   * D’une part, vous avez la possibilité de créer un rapport à partir d’un fichier local, c’est-à-dire un fichier de données directement stocké sur votre ordinateur. À noter que le fichier en question peut prendre différentes formes (Excel, SQL ect …).
+  
   * D’autre part, vous pouvez utiliser un jeu de données qui a déjà été publié sur Power BI Service. Vous remarquerez que Power BI Service à une interface très similaire à Power BI Desktop, avec le canevas central où vous pouvez visualiser en direct votre rapport de données, le volet « champs » où apparaît toutes les colonnes de votre jeu de données, la fenêtre « Visualisations » avec tous les outils et visuels à votre disposition, ainsi que la section « Filtres ».
 
 .. warning::
