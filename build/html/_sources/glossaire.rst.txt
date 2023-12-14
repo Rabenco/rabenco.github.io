@@ -79,3 +79,9 @@ POWER QUERY
       
     DAX - Data Analytics Expressions
       **Langage de programmation** qui va nous permettre d'ajouter des indicateurs et d'effectuer des calculs.
+
+POWER BI EMBEDDED
+-----------------
+.. glossary::
+    POWER BI EMBEDDED
+      **Power BI Embedded** est un logiciel Microsoft qui permet d'intégrer des tableaux de bord et des rapports dans une application pour les utilisateurs qui ne disposent pas de compte Power BI.

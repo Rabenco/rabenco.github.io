@@ -23,3 +23,23 @@ Comme le service Power BI, Power BI Report Server héberge :
  Comme Reporting Services, Power BI Report Server est **installé localement**. 
  
  Les fonctionnalités de Power BI Report Server sont un sur-ensemble de Reporting Services : tout ce que vous pouvez faire dans Reporting Services, vous pouvez aussi le faire avec Power BI Report Server, avec **en plus la prise en charge des rapports Power BI**.
+
+POWER BI EMBEDDED
+==================
+
+ Power BI Embedded : Un logiciel Microsoft qui permet d'intégrer des tableaux de bord et des rapports dans une application pour les utilisateurs qui ne disposent pas de compte Power BI.
+
+ .. figure::  images/PBIEMBEDDED.png
+   :align:   center
+
+   *Interactions entre les produits Power BI*
+
+COMPATIBILITE PYTHON & PRODUITS POWER BI 
+========================================
+
+Seuls Power BI Service , Power BI Embedded et Power BI Desktop permettent d'enrichir les données via du code en R et Python.
+
+.. figure::  images/python.png
+   :align:   center
+
+   *Compatibilité entre python et les produits Power BI*
