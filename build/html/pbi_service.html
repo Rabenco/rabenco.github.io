@@ -159,10 +159,15 @@
 <div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
   <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="glossaire.html">GLOSSAIRE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pbi_workflow.html">CYCLE DE TRAVAIL (WORKFLOW)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pbi_workflow.html#licences-power-bi">LICENCES POWER BI</a></li>
 <li class="toctree-l1"><a class="reference internal" href="pbi_desktop.html">POWER BI DESKTOP</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pbi_desktop.html#interface-power-bi-desktop">INTERFACE POWER BI DESKTOP</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pbi_desktop.html#power-query-editor">POWER QUERY EDITOR</a></li>
 <li class="toctree-l1 current current-page"><a class="current reference internal" href="#">POWER BI SERVICE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#power-bi-desktop-vs-service">POWER BI DESKTOP vs SERVICE</a></li>
 <li class="toctree-l1"><a class="reference internal" href="pbi_mobile.html">POWER BI MOBILE</a></li>
-<li class="toctree-l1"><a class="reference internal" href="pbi_autres.html">POWER BI AUTRES</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pbi_autres.html">POWER BI REPORT SERVER</a></li>
 </ul>
 
 </div>
@@ -201,12 +206,99 @@
 <h1>POWER BI SERVICE<a class="headerlink" href="#power-bi-service" title="Link to this heading">#</a></h1>
 <section id="dans-power-bi">
 <h2>DANS POWER BI<a class="headerlink" href="#dans-power-bi" title="Link to this heading">#</a></h2>
+<p><strong>Power BI Service</strong> est une plateforme collaborative développée par Microsoft, complémentaire à l’application Power BI Desktop.
+Elle offre la possibilité à ses utilisateurs de <strong>consommer, partager, actualiser ou distribuer des rapports, des jeux de données ou encore des tableaux de bord Power BI</strong>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>📢❗🚨 À noter que pour accéder aux services de Power BI, il est nécessaire de détenir un compte Power BI Pro ou Power BI Premium.</p>
+</div>
 <figure class="align-center" id="id1">
 <img alt="_images/PBIservice.jpg" src="_images/PBIservice.jpg" />
 <figcaption>
 <p><span class="caption-text"><em>POWER BI SERVICE.</em></span><a class="headerlink" href="#id1" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
+</section>
+<section id="interface-et-fonctionnalites-power-bi-service">
+<h2>INTERFACE ET FONCTIONNALITES POWER BI SERVICE<a class="headerlink" href="#interface-et-fonctionnalites-power-bi-service" title="Link to this heading">#</a></h2>
+<figure class="align-center" id="id2">
+<img alt="_images/pbi_service.jpg" src="_images/pbi_service.jpg" />
+<figcaption>
+<p><span class="caption-text"><em>INTERFACE POWER BI SERVICE : PAGE ACCUEIL.</em></span><a class="headerlink" href="#id2" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<p>L’interface utilisateur de Power BI Service est clair, fonctionnel, structuré et se compose de plusieurs éléments. Sur le volet de gauche, nous pouvons retrouver :</p>
+<ul class="simple">
+<li><p><strong>La page d’accueil</strong>
+Elle concentre un résumé de tous les éléments présents sur la plateforme tels que les activités récentes des membres, par exemple.</p></li>
+<li><p><strong>Les favoris</strong>
+Ils permettent de sauvegarder un certain nombre de contenus (rapports, jeux de données), qui peuvent être plus facilement trouvés par les membres de l’équipe.</p></li>
+<li><p><strong>La catégorie « Récent »</strong>
+Elle permet de visualiser les derniers contenus utilisés par les membres de l’équipe, qu’il s’agisse d’un espace de travail, d’un tableau de bord, d’un rapport ou encore d’un jeu de données.</p></li>
+<li><p><strong>La fonction « Créer »</strong>
+Il est possible de créer des rapports sur Power BI Service, bien qu’il ne s’agisse pas de sa fonction première. Pour créer un rapport sur Power BI Service, il existe <strong>deux méthodes</strong>.
+* D’une part, vous avez la possibilité de créer un rapport à partir d’un fichier local, c’est-à-dire un fichier de données directement stocké sur votre ordinateur. À noter que le fichier en question peut prendre différentes formes (Excel, SQL ect …).
+* D’autre part, vous pouvez utiliser un jeu de données qui a déjà été publié sur Power BI Service. Vous remarquerez que Power BI Service à une interface très similaire à Power BI Desktop, avec le canevas central où vous pouvez visualiser en direct votre rapport de données, le volet « champs » où apparaît toutes les colonnes de votre jeu de données, la fenêtre « Visualisations » avec tous les outils et visuels à votre disposition, ainsi que la section « Filtres ».</p></li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Avertissement</p>
+<p>⚠️ Cependant, nous ne pouvons pas accéder à Power Query, ni même à la vision des données et aux modèles. De ce fait, créer un rapport sur Power BI Service est peu recommandé.</p>
+</div>
+<ul class="simple">
+<li><p><strong>Jeux de données</strong>
+Cette catégorie permet aux utilisateurs de Power BI Service de visualiser l’ensemble des jeux de données utilisés ou partagés par les membres d’une équipe.</p></li>
+<li><p><strong>Les applications</strong>
+Les applications Power BI offrent toute une collection de rapports et de tableaux de bord préétablis, avec des jeux de données déjà inclus dans l’application ou qu’il est possible de connecter soi-même. Pour en savoir plus, rendez-vous sur notre article : L’utilisation des applications Power BI Service.</p></li>
+<li><p><strong>L’option « Partagé avec moi »</strong>
+Au même titre que les jeux de données, nous retrouvons également les rapports partagés. Cet onglet rassemble tout simplement les rapports des autres membres de l’équipe, qui ont décidé de partager leur rapport de données avec vous.</p></li>
+<li><p><strong>La section « Apprenez »</strong>
+Cette catégorie permet aux utilisateurs de recevoir l’aide dont ils ont besoin quant à l’utilisation de Power BI Service, avec notamment de la documentation ou une fiche explicative sur l’utilisation de l’outil. Il est également possible de participer à la communauté Power BI, qui s’apparente à un forum ou à une foire aux questions.</p></li>
+<li><p><strong>Les espaces de travail Power BI Service</strong>
+Les espaces de travail sont une des parties principales de Power BI Service. Ils permettent de stocker l’ensemble des contenus Power BI. Chaque compte Power BI Service possède un espace de travail dédié, intitulé « Mon espace de travail ».</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><strong>L’espace de travail Power BI Service</strong> (workspace) peut notamment être <strong>partagé</strong>. Pour ce faire, rendez-vous sur votre espace personnel et cliquez sur l’onglet « Accès ». Vous pourrez alors identifier les membres avec qui vous souhaitez partager votre espace, définir les rôles attribués à chacun, ainsi que les autorisations d’utilisations (Administrateur, membre, collaborateur, visionneuse).</p>
+</div>
+<figure class="align-center" id="id3">
+<img alt="_images/ACCES.jpg" src="_images/ACCES.jpg" />
+<figcaption>
+<p><span class="caption-text"><em>ACCES WORKSPACE POWER BI SERVICE.</em></span><a class="headerlink" href="#id3" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+</section>
+<section id="power-bi-desktop-vs-service">
+<h1>POWER BI DESKTOP vs SERVICE<a class="headerlink" href="#power-bi-desktop-vs-service" title="Link to this heading">#</a></h1>
+<section id="points-communs-et-differences-entre-power-bi-desktop-et-power-bi-service">
+<h2>POINTS COMMUNS ET DIFFERENCES entre Power BI Desktop et Power BI Service<a class="headerlink" href="#points-communs-et-differences-entre-power-bi-desktop-et-power-bi-service" title="Link to this heading">#</a></h2>
+<p><strong>POINTS COMMUNS</strong> :</p>
+<ul class="simple">
+<li><p>Création de rapports</p></li>
+<li><p>Création de visualisation</p></li>
+<li><p>Gestion de la sécurité</p></li>
+<li><p>Application de filtres</p></li>
+</ul>
+<p><strong>DIFFERENCES</strong></p>
+<ul class="simple">
+<li><p>Seul <strong>Power BI Desktop</strong> va permettre de :</p>
+<ul>
+<li><p>Transformer et de nettoyer les données</p></li>
+<li><p>Modéliser les données</p></li>
+<li><p>Ajouter des calculs</p></li>
+<li><p>Intégrer un thème</p></li>
+<li><p>Créer des rôles liés à la sécurité</p></li>
+</ul>
+</li>
+<li><p>Seul <strong>Power BI Service</strong> va nous permettre de :</p>
+<ul>
+<li><p>Créer des tableaux de bord</p></li>
+<li><p>Créer des applications et Workspaces</p></li>
+<li><p>Partager le contenu créé</p></li>
+<li><p>Gérer des rôles et affecter des utilisateurs aux rôles prédéfinis</p></li>
+</ul>
+</li>
+</ul>
 </section>
 </section>
 
@@ -267,6 +359,11 @@
             <ul>
 <li><a class="reference internal" href="#">POWER BI SERVICE</a><ul>
 <li><a class="reference internal" href="#dans-power-bi">DANS POWER BI</a></li>
+<li><a class="reference internal" href="#interface-et-fonctionnalites-power-bi-service">INTERFACE ET FONCTIONNALITES POWER BI SERVICE</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#power-bi-desktop-vs-service">POWER BI DESKTOP vs SERVICE</a><ul>
+<li><a class="reference internal" href="#points-communs-et-differences-entre-power-bi-desktop-et-power-bi-service">POINTS COMMUNS ET DIFFERENCES entre Power BI Desktop et Power BI Service</a></li>
 </ul>
 </li>
 </ul>

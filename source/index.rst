@@ -28,7 +28,7 @@ POWER BI DOCS
 **POWER BI DOCS** est une documentation synthétique, claire et facile à appréhender pour comprendre l'écosystème de POWER BI.
 Retrouvez la **documentation officielle** Microsoft sur `POWER BI ici <https://learn.microsoft.com/fr-fr/power-bi/fundamentals/>`_
 
-.. tip::
+.. important::
    Vous souhaitez télécharger les composants de la suite POWER BI ?
 
    `👉 C'est par ici ! TELECHARGER <https://powerbi.microsoft.com/fr-fr/downloads/>`_
@@ -63,6 +63,12 @@ Power BI est constitué de plusieurs éléments qui fonctionnent ensemble, dont 
    *L'écosytème de POWER BI : Power BI Desktop et Power BI Service.*
 
 
+.. figure::  images/pbi_total.jpg
+   :align:   center
+
+   *L'écosytème complet de POWER BI*
+
+   
 CONCEPTS POWER BI
 =================
 
@@ -95,12 +101,16 @@ Ces cinq blocs de construction sont intégrés dans un conteneur qui s'appelle *
    |
    :term:`TABLEAU DE BORD`
 
+
+
+
 Contenu
 --------
 
 .. toctree::
 
    glossaire
+   pbi_workflow
    pbi_desktop
    pbi_service
    pbi_mobile

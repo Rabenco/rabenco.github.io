@@ -56,3 +56,26 @@ CONCEPTS POWER BI (BLOCS DE CONSTRUCTIONS)
 
     APPLICATION 
       Ces collections de tableaux de bord et de rapports organisent du contenu associé dans un seul et même package. Les concepteurs Power BI les génèrent **dans les espaces de travail** et **partagent des applications** avec des personnes, des groupes, toute une organisation ou tout le monde. L’utilisation d’applications nécessite une licence Power BI Pro ou Premium par utilisateur.
+
+
+INTERFACE POWER BI DESKTOP
+--------------------------
+.. glossary::
+    VUE RAPPORT 
+      **Canevas de rapport** utilisé pour concevoir des visualisations de données. Il s’agit de la vue par défaut au lancement de Power BI Desktop
+
+    VUE DONNEES
+      **Vue Données** : Fournit une vue des données dans le modèle. L’affichage est similaire à celui d’une **feuille classique Excel** mais en lecture seule
+
+    VUE MODELE
+      **Vue modèle** : Principalement utilisé lorsque le modèle de données utilise **plusieurs tables** et nécessite de mettre en place des relations entre elles.
+
+
+POWER QUERY
+-----------
+.. glossary::
+    POWER QUERY
+      **Power Query** est un moteur de **transformation** et de **préparation** des données. Power Query est fourni avec une interface graphique permettant d’obtenir des données à partir de sources, et avec **l’éditeur Power Query** qui permet d’appliquer des transformations.
+      
+    DAX - Data Analytics Expressions
+      **Langage de programmation** qui va nous permettre d'ajouter des indicateurs et d'effectuer des calculs.

@@ -6,7 +6,7 @@
 <link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Recherche" href="search.html" /><link rel="prev" title="POWER BI MOBILE" href="pbi_mobile.html" />
 
     <!-- Generated with Sphinx 7.2.6 and Furo 2023.09.10 -->
-        <title>POWER BI AUTRES - Documentation POWER BI DOCS</title>
+        <title>POWER BI REPORT SERVER - Documentation POWER BI DOCS</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=a746c00c" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?v=135e06be" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css?v=36a5483c" />
@@ -134,7 +134,7 @@
           <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
         </button>
       </div>
-      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
         <div class="visually-hidden">Toggle table of contents sidebar</div>
         <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
       </label>
@@ -159,10 +159,15 @@
 <div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
   <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="glossaire.html">GLOSSAIRE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pbi_workflow.html">CYCLE DE TRAVAIL (WORKFLOW)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pbi_workflow.html#licences-power-bi">LICENCES POWER BI</a></li>
 <li class="toctree-l1"><a class="reference internal" href="pbi_desktop.html">POWER BI DESKTOP</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pbi_desktop.html#interface-power-bi-desktop">INTERFACE POWER BI DESKTOP</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pbi_desktop.html#power-query-editor">POWER QUERY EDITOR</a></li>
 <li class="toctree-l1"><a class="reference internal" href="pbi_service.html">POWER BI SERVICE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pbi_service.html#power-bi-desktop-vs-service">POWER BI DESKTOP vs SERVICE</a></li>
 <li class="toctree-l1"><a class="reference internal" href="pbi_mobile.html">POWER BI MOBILE</a></li>
-<li class="toctree-l1 current current-page"><a class="current reference internal" href="#">POWER BI AUTRES</a></li>
+<li class="toctree-l1 current current-page"><a class="current reference internal" href="#">POWER BI REPORT SERVER</a></li>
 </ul>
 
 </div>
@@ -191,21 +196,33 @@
               <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
             </button>
           </div>
-          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+          <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
             <div class="visually-hidden">Toggle table of contents sidebar</div>
             <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
           </label>
         </div>
         <article role="main">
-          <section id="power-bi-autres">
-<h1>POWER BI AUTRES<a class="headerlink" href="#power-bi-autres" title="Link to this heading">#</a></h1>
-<section id="installation">
-<h2>Installation<a class="headerlink" href="#installation" title="Link to this heading">#</a></h2>
-<p>To use Lumache, first install it using pip:</p>
-<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp gp-VirtualEnv">(.venv)</span> <span class="gp">$ </span>pip<span class="w"> </span>install<span class="w"> </span>lumache
-</pre></div>
-</div>
-</section>
+          <section id="power-bi-report-server">
+<h1>POWER BI REPORT SERVER<a class="headerlink" href="#power-bi-report-server" title="Link to this heading">#</a></h1>
+<p>POWER BI REPORT SERVER va nous permettre de publier des rapports Power BI <strong>sur un serveur local</strong>.
+Les rapports sont distribués derrière le pare feu de l´organisation et non sur le cloud mais il est possible de migrer vers le Cloud.</p>
+<figure class="align-center" id="id1">
+<img alt="_images/pbi_report_service.jpg" src="_images/pbi_report_service.jpg" />
+<figcaption>
+<p><span class="caption-text"><em>INTERFACE POWER BI REPORT SERVER</em></span><a class="headerlink" href="#id1" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<p>Power BI Report Server ressemble à la fois à <strong>SQL Server Reporting Services et au service en ligne Power BI</strong>, mais avec quelques différences.</p>
+<p>Comme le service Power BI, Power BI Report Server héberge :</p>
+<ul class="simple">
+<li><p>des rapports Power BI (.pbix)</p></li>
+<li><p>des fichiers Excel</p></li>
+<li><p>des rapports paginés (.rdl)</p></li>
+</ul>
+<blockquote>
+<div><p>Comme Reporting Services, Power BI Report Server est <strong>installé localement</strong>.</p>
+<p>Les fonctionnalités de Power BI Report Server sont un sur-ensemble de Reporting Services : tout ce que vous pouvez faire dans Reporting Services, vous pouvez aussi le faire avec Power BI Report Server, avec <strong>en plus la prise en charge des rapports Power BI</strong>.</p>
+</div></blockquote>
 </section>
 
         </article>
@@ -243,27 +260,8 @@
         
       </footer>
     </div>
-    <aside class="toc-drawer">
+    <aside class="toc-drawer no-toc">
       
-      
-      <div class="toc-sticky toc-scroll">
-        <div class="toc-title-container">
-          <span class="toc-title">
-            On this page
-          </span>
-        </div>
-        <div class="toc-tree-container">
-          <div class="toc-tree">
-            <ul>
-<li><a class="reference internal" href="#">POWER BI AUTRES</a><ul>
-<li><a class="reference internal" href="#installation">Installation</a></li>
-</ul>
-</li>
-</ul>
-
-          </div>
-        </div>
-      </div>
       
       
     </aside>

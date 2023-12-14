@@ -8,7 +8,68 @@ DANS POWER BI
 .. figure::  images/PBIdesktop.jpg
    :align:   center
 
-   *POWER BI DESKTOP.*
+   *POWER BI DESKTOP*
 
 
 **Power BI Desktop** est une application à installer sur PC qui a pour vocation de collecter, de modéliser et d’analyser vos données ainsi que de créer des rapports Power BI.
+
+INTERFACE POWER BI DESKTOP
+==========================
+
+PRESENTATION INTERFACE POWER BI DESKTOP
+---------------------------------------
+**Présentation** de l'interface:
+
+.. figure::  images/interface_pbi_desktop2.jpg
+   :align:   center
+
+
+#. **Barre de titre** : trois parties définies, à gauche sont affichées les commandes Enregistrer, Annuler et Refaire, au centre est affiché le nom du rapport en cours et à droite sont affichées les commandes Se connecter, Minimiser, Maximiser et Fermer la fenêtre.
+
+#. **Barre de menu** : les menus de l'application sont affichés ici : Fichier, Accueil, Insertion, Modélisation, Affichage et Aide.
+
+#. **Sélecteur de zone de travail** : permet de sélectionner trois environnements de travail, le premier étant le **rapport**, qui permet de voir la conception graphique du rapport en cours de construction, le deuxième étant les **données**, qui affiche les tables, les champs et les enregistrements qui appartiennent au rapport et le troisième étant le **modèle**, qui est une représentation graphique des tables dans le modèle et de la relation entre elles.
+
+#. **Zone de travail** : trois environnements : Rapport, Données et Modèle. Dans ces zones, vous construisez principalement le projet que vous souhaitez développer.
+
+#. **Menu vertical** : contient trois menus, **Filtres**, **Visualisations** et **Données**. 
+
+#. **Pages** : toutes les pages contenues dans le rapport actuel sont affichées ici ; une commande (+) permet d'ajouter de nouvelles pages.
+
+FONCTIONNALITES POWER BI DESKTOP
+--------------------------------
+**Fonctionnalités** accessibles depuis l’écran d’accueil:
+
+.. figure::  images/interface_pbi_desktop.jpg
+   :align:   center
+
+   *INTERFACE POWER BI DESKTOP*
+
+#. **Obtenir des données** : Utilisé pour sélectionner et configurer en détail un **connecteur** à une source de données
+
+#. **Transformer les données** : Lance l’éditeur **Power Query Editor** qui peut être utilisé pour appliquer des transformations de données
+
+#. **Vue Rapport** : **Canevas de rapport** utilisé pour concevoir des visualisations de données. Il s’agit de la vue par défaut au lancement de Power BI Desktop
+
+#. **Vue Données** : Fournit une vue des données dans le modèle. L’affichage est similaire à celui d’une **feuille classique Excel** mais en lecture seule
+
+#. **Vue modèle** : Principalement utilisé lorsque le modèle de données utilise **plusieurs tables** et nécessite de mettre en place des relations entre elles.
+
+POWER QUERY EDITOR
+===================
+**Power Query** est un moteur de **transformation** et de **préparation** des données. Power Query est fourni avec une interface graphique permettant d’obtenir des données à partir de sources, et avec **l’éditeur Power Query** qui permet d’appliquer des transformations. 
+
+.. figure::  images/power_query.jpg
+   :align:   center
+
+   *POWER QUERY EDITOR*
+
+#. **Ruban** : ajouter des transformations, sélectionner des options pour votre requête et accéder à différents boutons pour effectuer diverses tâches.
+
+#. **Volet Requêtes** : vue de toutes les requêtes disponibles.
+
+#. **Affichage actuel** : vue principale de votre travail, qui affiche par défaut un aperçu des données pour votre requête. 
+
+#. **Paramètres de requête** : vue de la requête actuellement sélectionnée, avec des informations pertinentes, telles que le nom de la requête, ses étapes et divers indicateurs.
+
+#. **Barre d’état** : barre affichant des informations importantes pertinentes sur votre requête, telles que le temps d’exécution, le nombre total de colonnes et de lignes, et l’état de traitement. 
