@@ -69,6 +69,37 @@ L’interface utilisateur de Power BI Service est clair, fonctionnel, structuré
 
    *ACCES WORKSPACE POWER BI SERVICE.*
 
+Connexion de Power BI Desktop au service Power BI
+-------------------------------------------------
+.. important::
+   📢❗🚨 `👉 POWER BI SERVICE <https://app.powerbi.com/>`_
+
+L'ensemble du processus de connexion se compose de deux parties:
+
+* La première partie consiste à **créer un compte sur le service Power BI**, cette étape peut être ignorée si vous avez déjà un compte avec le service Power BI. 
+
+* La deuxième partie consiste à **publier un rapport sur Power BI service depuis Power BI Desktop**
+
+    #. Accédez à Power BI service. Si vous n'avez jamais créé de compte sur Power BI, cliquez sur le bouton Essayer gratuitement, sinon, cliquez sur le bouton Se connecter. 
+
+    #. Une nouvelle boîte de dialogue apparaît. Ici, nous devons saisir **l'e-mail** pour lequel nous souhaitons créer un compte. N'oubliez pas que les comptes universitaires, d'entreprise et d'organisation peuvent être utilisés pour créer un compte. **Cela signifie qu'aucun Gmail, Hotmail ou tout autre domaine personnel ne peut être utilisé**. Cliquez sur le bouton Soumettre. 
+
+    #. La page suivante s'ouvrira, elle comprend trois étapes. L'étape 1 consiste à commencer, nous devons sélectionner le type de compte de messagerie que nous utilisons, soit un compte d'organisation, soit un compte personnel. 
+
+    #. Créez votre compte. Remplissez les détails requis comme indiqué ci-dessous. Saisissez votre prénom, votre nom, votre pays de résidence, votre numéro de téléphone et votre mot de passe fort. 
+
+    #. Un code de vérification sera envoyé à l'identifiant de messagerie saisi, saisissez ce code de vérification. Cliquez sur le bouton Suivant . 
+
+    #. L'étape 2 est presque terminée. Cliquez sur le bouton Se connecter.  
+
+    #. Une nouvelle boîte de dialogue apparaît, nous demandant de protéger votre compte. Nous pouvons ignorer cette étape pour le moment. Notez que cette boîte de dialogue peut apparaître plusieurs fois, alors cliquez simplement sur le bouton Ignorer pour l'instant. Cliquez sur le bouton Suivant. 
+
+    #. Une nouvelle boîte de dialogue apparaît. Cochez la case si vous souhaitez rester connecté longtemps. Cliquez sur le bouton oui. 
+
+    #. Cliquez sur le bouton Commencer. 
+
+    #. Nous serons redirigés vers la page d'accueil du service en ligne Power BI. Nous avons créé avec succès un compte sur le service en ligne Power BI. 
+
 POWER BI DESKTOP vs SERVICE
 ===========================
 POINTS COMMUNS ET DIFFERENCES entre Power BI Desktop et Power BI Service
