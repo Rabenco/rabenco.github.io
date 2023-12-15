@@ -70,7 +70,7 @@ Le service Power BI est accessible aux utilisateurs avec une licence gratuite ou
 
 Par exemple, un utilisateur gratuit peut lire le contenu d’un utilisateur Pro et un utilisateur Pro celui d’un utilisateur PPU. Pour en savoir plus, nous détaillons son fonctionnement dans notre article sur les licences Power BI.
 
-Qui peut utiliser le service Power BI et Power BI Desktop ?
+Qui peut utiliser le service Power BI et Power BI Desktop?
 -----------------------------------------------------------
 
 Contrairement à ce que l’on pourrait penser, le service Power BI et Power BI Desktop **ne requièrent pas de licence payante**. Ils peuvent être utilisés aussi bien par un utilisateur gratuit que par un utilisateur avec une des 3 autres licences payantes Power BI. C’est d’ailleurs ce qui fait la force de Power BI par rapport à d’autres solutions sur le marché de l’informatique décisionnelle : **ses outils de base sont gratuits**.
