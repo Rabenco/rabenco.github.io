@@ -3,7 +3,7 @@
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <meta name="color-scheme" content="light dark"><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
-<link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Recherche" href="search.html" /><link rel="next" title="POWER BI SERVICE" href="pbi_service.html" /><link rel="prev" title="GLOSSAIRE" href="glossaire.html" />
+<link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Recherche" href="search.html" /><link rel="next" title="POWER BI SERVICE" href="pbi_service.html" /><link rel="prev" title="CYCLE DE TRAVAIL (WORKFLOW)" href="pbi_workflow.html" />
 
     <!-- Generated with Sphinx 7.2.6 and Furo 2023.09.10 -->
         <title>POWER BI DESKTOP - Documentation POWER BI DOCS</title>
@@ -159,12 +159,23 @@
 <div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
   <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="glossaire.html">GLOSSAIRE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pbi_workflow.html">CYCLE DE TRAVAIL (WORKFLOW)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pbi_workflow.html#licences-power-bi">LICENCES POWER BI</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pbi_workflow.html#mehodes-de-partage-d-un-rapport-power-bi">6 MEHODES DE PARTAGE D’UN RAPPORT POWER BI</a></li>
 <li class="toctree-l1 current current-page"><a class="current reference internal" href="#">POWER BI DESKTOP</a></li>
 <li class="toctree-l1"><a class="reference internal" href="#interface-power-bi-desktop">INTERFACE POWER BI DESKTOP</a></li>
 <li class="toctree-l1"><a class="reference internal" href="#power-query-editor">POWER QUERY EDITOR</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#les-3-versions-de-power-bi-desktop">LES 3 VERSIONS DE POWER BI DESKTOP</a></li>
 <li class="toctree-l1"><a class="reference internal" href="pbi_service.html">POWER BI SERVICE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pbi_service.html#power-bi-desktop-vs-service">POWER BI DESKTOP vs SERVICE</a></li>
 <li class="toctree-l1"><a class="reference internal" href="pbi_mobile.html">POWER BI MOBILE</a></li>
-<li class="toctree-l1"><a class="reference internal" href="pbi_autres.html">POWER BI AUTRES</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pbi_autres.html">POWER BI REPORT SERVER</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pbi_autres.html#power-bi-embedded">POWER BI EMBEDDED</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pbi_autres.html#compatibilite-python-produits-power-bi">COMPATIBILITE PYTHON &amp; PRODUITS POWER BI</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pbi_types_acces.html">TYPES D’ACCES SUR POWER BI</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pbi_types_acces.html#acces-a-un-workspace">ACCES A UN WORKSPACE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pbi_types_acces.html#roles">ROLES</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pbi_types_acces.html#acces-a-un-rapport-un-dataset-un-tableau-de-bord">ACCES A UN RAPPORT - UN DATASET - UN TABLEAU DE BORD</a></li>
 </ul>
 
 </div>
@@ -265,6 +276,33 @@
 <li><p><strong>Barre d’état</strong> : barre affichant des informations importantes pertinentes sur votre requête, telles que le temps d’exécution, le nombre total de colonnes et de lignes, et l’état de traitement.</p></li>
 </ol>
 </section>
+<section id="les-3-versions-de-power-bi-desktop">
+<h1>LES 3 VERSIONS DE POWER BI DESKTOP<a class="headerlink" href="#les-3-versions-de-power-bi-desktop" title="Link to this heading">#</a></h1>
+<p>Power BI Desktop est cette <strong>application de bureau</strong>, qui permet d’importer des données dans Power BI ou de se connecter à des données en connexion directe. C’est aussi cette application qui est utilisée pour créer les rapports. Les tableaux de bord, quant à eux, seront plutôt créés dans le service.</p>
+<ol class="arabic">
+<li><p>Power BI Desktop à partir du <strong>site Power BI de Microsoft</strong> pour publier dans le <strong>service</strong></p>
+<p>Depuis le lancement de Power BI, il est possible de télécharger Power BI Desktop (jadis appelé Power BI Designer) à partir du <strong>site Power BI de Microsoft</strong>. Cette option est toujours valide et suppose que vous allez ensuite publier les rapports créés avec Power BI Desktop sur le service Power BI (portail web).</p>
+</li>
+</ol>
+<div class="admonition warning">
+<p class="admonition-title">Avertissement</p>
+<p>On doit manuellement aller télécharger Power BI Desktop et l’activer. Comme des mises à jour sont lancées à tous les mois, cette action peut devenir irritante.</p>
+</div>
+<ol class="arabic">
+<li><p>Power BI Desktop à partir du <strong>Store de Microsoft</strong> pour publier dans le <strong>service</strong></p>
+<p>il est également possible de télécharger Power BI Desktop à partir du <strong>Store de Microsoft</strong>. Cette version suppose également que vous désirez publier vos rapports sur le service Power BI (portail web) et requière que vous utilisiez <strong>Windows 10</strong>.</p>
+</li>
+</ol>
+<div class="admonition warning">
+<p class="admonition-title">Avertissement</p>
+<p>Mise à jour automatique. Si une mise à jour est problématique, on doit composer avec.</p>
+</div>
+<ol class="arabic">
+<li><p>Power BI Desktop à partir du <strong>Site de Microsoft**pour publier **localement</strong></p>
+<p>Toutefois, si votre intention est de publier vos rapports Power BI Desktop <strong>sur un serveur local</strong> (Power BI Report Server), dans ce cas, il vous faut une version différente de Power BI Desktop. que vous pouvez retrouver sur le <strong>site de Microsoft</strong>.</p>
+</li>
+</ol>
+</section>
 
         </article>
       </div>
@@ -280,14 +318,14 @@
               </div>
               <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
             </a>
-          <a class="prev-page" href="glossaire.html">
+          <a class="prev-page" href="pbi_workflow.html">
               <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
               <div class="page-info">
                 <div class="context">
                   <span>Previous</span>
                 </div>
                 
-                <div class="title">GLOSSAIRE</div>
+                <div class="title">CYCLE DE TRAVAIL (WORKFLOW)</div>
                 
               </div>
             </a>
@@ -331,6 +369,7 @@
 </ul>
 </li>
 <li><a class="reference internal" href="#power-query-editor">POWER QUERY EDITOR</a></li>
+<li><a class="reference internal" href="#les-3-versions-de-power-bi-desktop">LES 3 VERSIONS DE POWER BI DESKTOP</a></li>
 </ul>
 
           </div>

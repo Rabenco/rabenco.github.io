@@ -85,3 +85,20 @@ POWER BI EMBEDDED
 .. glossary::
     POWER BI EMBEDDED
       **Power BI Embedded** est un logiciel Microsoft qui permet d'intégrer des tableaux de bord et des rapports dans une application pour les utilisateurs qui ne disposent pas de compte Power BI.
+      
+
+ROLES SUR POWER BI SERVICE
+--------------------------
+.. glossary::
+    VISIONNEUSE (Viewer)
+      L’utilisateur a accès au rapport en **lecture seule**. 
+      Il n’a accès qu’au rapport, et peut utiliser « Analyse in Excel » ou un « Live connection desktop » vers Services en ajoutant le droit de Build dans les autorisations.
+    
+    COLLABORATEUR (Contributor)
+      L’utilisateur peut **modifier** ou créer des rapports.
+    
+    MEMBRE
+      L’utilisateur peut **déployer** le rapport
+
+    ADMINISTRATEUR
+      L’utilisateur a le **contrôle** du workspace, de son contenu et de ses membres.

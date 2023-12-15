@@ -3,10 +3,10 @@
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <meta name="color-scheme" content="light dark"><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
-<link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Recherche" href="search.html" /><link rel="next" title="TYPES D’ACCES SUR POWER BI" href="pbi_types_acces.html" /><link rel="prev" title="POWER BI MOBILE" href="pbi_mobile.html" />
+<link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Recherche" href="search.html" /><link rel="prev" title="POWER BI REPORT SERVER" href="pbi_autres.html" />
 
     <!-- Generated with Sphinx 7.2.6 and Furo 2023.09.10 -->
-        <title>POWER BI REPORT SERVER - Documentation POWER BI DOCS</title>
+        <title>TYPES D’ACCES SUR POWER BI - Documentation POWER BI DOCS</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=a746c00c" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?v=135e06be" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css?v=36a5483c" />
@@ -134,7 +134,7 @@
           <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
         </button>
       </div>
-      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
         <div class="visually-hidden">Toggle table of contents sidebar</div>
         <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
       </label>
@@ -169,10 +169,10 @@
 <li class="toctree-l1"><a class="reference internal" href="pbi_service.html">POWER BI SERVICE</a></li>
 <li class="toctree-l1"><a class="reference internal" href="pbi_service.html#power-bi-desktop-vs-service">POWER BI DESKTOP vs SERVICE</a></li>
 <li class="toctree-l1"><a class="reference internal" href="pbi_mobile.html">POWER BI MOBILE</a></li>
-<li class="toctree-l1 current current-page"><a class="current reference internal" href="#">POWER BI REPORT SERVER</a></li>
-<li class="toctree-l1"><a class="reference internal" href="#power-bi-embedded">POWER BI EMBEDDED</a></li>
-<li class="toctree-l1"><a class="reference internal" href="#compatibilite-python-produits-power-bi">COMPATIBILITE PYTHON &amp; PRODUITS POWER BI</a></li>
-<li class="toctree-l1"><a class="reference internal" href="pbi_types_acces.html">TYPES D’ACCES SUR POWER BI</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pbi_autres.html">POWER BI REPORT SERVER</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pbi_autres.html#power-bi-embedded">POWER BI EMBEDDED</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pbi_autres.html#compatibilite-python-produits-power-bi">COMPATIBILITE PYTHON &amp; PRODUITS POWER BI</a></li>
+<li class="toctree-l1 current current-page"><a class="current reference internal" href="#">TYPES D’ACCES SUR POWER BI</a></li>
 </ul>
 
 </div>
@@ -201,57 +201,127 @@
               <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
             </button>
           </div>
-          <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
             <div class="visually-hidden">Toggle table of contents sidebar</div>
             <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
           </label>
         </div>
         <article role="main">
-          <section id="power-bi-report-server">
-<h1>POWER BI REPORT SERVER<a class="headerlink" href="#power-bi-report-server" title="Link to this heading">#</a></h1>
-<p>POWER BI REPORT SERVER va nous permettre de publier des rapports Power BI <strong>sur un serveur local</strong>.
-Les rapports sont distribués derrière le pare feu de l´organisation et non sur le cloud mais il est possible de migrer vers le Cloud.</p>
-<figure class="align-center" id="id1">
-<img alt="_images/pbi_report_service.jpg" src="_images/pbi_report_service.jpg" />
-<figcaption>
-<p><span class="caption-text"><em>INTERFACE POWER BI REPORT SERVER</em></span><a class="headerlink" href="#id1" title="Link to this image">#</a></p>
-</figcaption>
-</figure>
-<p>Power BI Report Server ressemble à la fois à <strong>SQL Server Reporting Services et au service en ligne Power BI</strong>, mais avec quelques différences.</p>
-<p>Comme le service Power BI, Power BI Report Server héberge :</p>
+          <section id="types-d-acces-sur-power-bi">
+<h1>TYPES D’ACCES SUR POWER BI<a class="headerlink" href="#types-d-acces-sur-power-bi" title="Link to this heading">#</a></h1>
+<p>Selon les besoins des différents services, nous avons la possibilité de déterminer des accès à <strong>quatre types de documents</strong> :</p>
 <ul class="simple">
-<li><p>des rapports Power BI (.pbix)</p></li>
-<li><p>des fichiers Excel</p></li>
-<li><p>des rapports paginés (.rdl)</p></li>
+<li><p>Un <strong>workspace</strong></p></li>
+<li><p>Un <strong>rapport</strong> Power BI</p></li>
+<li><p>Un <strong>dataset</strong></p></li>
+<li><p>Un <strong>tableau de bord</strong></p></li>
 </ul>
+<p>La dernière étape de création d’un rapport Power BI repose dans sa <strong>publication</strong>.</p>
 <blockquote>
-<div><p>Comme Reporting Services, Power BI Report Server est <strong>installé localement</strong>.</p>
-<p>Les fonctionnalités de Power BI Report Server sont un sur-ensemble de Reporting Services : tout ce que vous pouvez faire dans Reporting Services, vous pouvez aussi le faire avec Power BI Report Server, avec <strong>en plus la prise en charge des rapports Power BI</strong>.</p>
+<div><p>Après construction d’un rapport dans « Desktop » et suite à sa publication en ligne, on peut ajouter <strong>les droits d’accès</strong>.</p>
 </div></blockquote>
+<section id="acces-a-un-workspace">
+<h2>ACCES A UN WORKSPACE<a class="headerlink" href="#acces-a-un-workspace" title="Link to this heading">#</a></h2>
+<p>Après la publication de votre rapport dans un workspace, vous pouvez vous rendre sur la version online et configurer <strong>4 types d’accès</strong>. Il est cependant bon de savoir que dès lors que vous ajoutez un utilisateur dans un workspace, ce dernier à un <strong>accès total à tous les rapports de l’espace.</strong></p>
+<figure class="align-center" id="id1">
+<img alt="_images/acces_workspace.jpg" src="_images/acces_workspace.jpg" />
+<figcaption>
+<p><span class="caption-text"><em>ROLE ACCES WORKSPACE</em></span><a class="headerlink" href="#id1" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
 </section>
-<section id="power-bi-embedded">
-<h1>POWER BI EMBEDDED<a class="headerlink" href="#power-bi-embedded" title="Link to this heading">#</a></h1>
+<section id="roles">
+<h2>ROLES<a class="headerlink" href="#roles" title="Link to this heading">#</a></h2>
+<p>Il est possible d’attribuer un des <strong>quatre rôles</strong> suivants :</p>
+<ul class="simple">
+<li><p>ADMINISTRATEUR</p></li>
+<li><p>MEMBRE</p></li>
+<li><p>COLLABORATEUR</p></li>
+<li><p>VISIONNEUSE</p></li>
+</ul>
+<ol class="arabic">
+<li><p><strong>VISIONNEUSE</strong> (Viewer)</p>
+<ul>
+<li><p>L’utilisateur a accès au rapport en <strong>lecture seule</strong>.</p></li>
+<li><p>Il n’a accès qu’au rapport, et peut utiliser « Analyse in Excel » ou un « Live connection desktop » vers Services en ajoutant le droit de Build dans les autorisations.</p></li>
+<li><p><strong>Ses accès</strong> :</p>
 <blockquote>
-<div><p>Power BI Embedded : Un logiciel Microsoft qui permet d’intégrer des tableaux de bord et des rapports dans une application pour les utilisateurs qui ne disposent pas de compte Power BI.</p>
+<div><ul class="simple">
+<li><p><strong>Lire</strong> les données stockées dans les flux de données des espaces de travail</p></li>
+<li><p><strong>Voir</strong> et utiliser un élément</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+</li>
+<li><p><strong>COLLABORATEUR</strong> (Contributor)</p>
+<ul>
+<li><p>L’utilisateur peut <strong>modifier</strong> ou créer des rapports.</p></li>
+<li><p><strong>Ses accès</strong> :</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Accès identique au Viewer</p></li>
+<li><p>Modifier les paramètres de connexion à la passerelle</p></li>
+<li><p>Planifier l’actualisation des données via la passerelle locale</p></li>
+<li><p>Créer des objectifs basés sur un jeu de données dans l’espace de travail</p></li>
+<li><p>Copier un rapport</p></li>
+<li><p>Créer un rapport dans un autre espace de travail à partir d’un jeu de données de cet espace de travail</p></li>
+<li><p>Publier des rapports sur l’espace de travail, supprimer du contenu</p></li>
+<li><p>Créer, modifier et supprimer du contenu dans l’espace de travail</p></li>
+<li><p>Proposer des tableaux de bord et des rapports sur la page d’accueil de collègues</p></li>
+<li><p>Mettre à jour une application (si autorisation)</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+</li>
+<li><p><strong>MEMBRE</strong></p>
+<ul>
+<li><p>L’utilisateur peut déployer le rapport</p></li>
+<li><p><strong>Ses accès</strong> :</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Accès indentique au Viewer et au Contributor</p></li>
+<li><p>Gérer les autorisations de jeu de données</p></li>
+<li><p>Proposer des applications sur la page d’accueil de collègues</p></li>
+<li><p>Permettre à d’autres utilisateurs de repartager des éléments</p></li>
+<li><p>Partager un élément ou une application</p></li>
+<li><p>Mettre à jour une application</p></li>
+<li><p>Publier, modifier et annuler la publication des autorisations d’une application</p></li>
+<li><p>Ajouter des membres ou d’autres rôles avec des autorisations inférieures</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+</li>
+<li><p><strong>ADMINISTRATEUR</strong></p>
+<ul>
+<li><p>L’utilisateur a le contrôle du workspace, de son contenu et de ses membres.</p></li>
+<li><p><strong>Ses accès</strong> :</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Accès du Viewer, du Contributor et du Membre</p></li>
+<li><p>Autoriser les Contributors à mettre à jour l’application pour l’espace de travail</p></li>
+<li><p>Ajouter/supprimer des personnes, y compris d’autres administrateurs</p></li>
+<li><p>Mettre à jour et supprimer l’espace de travail</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+</li>
+</ol>
+</section>
+<section id="acces-a-un-rapport-un-dataset-un-tableau-de-bord">
+<h2>ACCES A UN RAPPORT - UN DATASET - UN TABLEAU DE BORD<a class="headerlink" href="#acces-a-un-rapport-un-dataset-un-tableau-de-bord" title="Link to this heading">#</a></h2>
+<p>Il existe une deuxième méthode pour partager du contenu sur Power BI Services.</p>
+<p>Celle-ci consiste à donner accès à qu’un seul élément, et non le workspace dans son ensemble. Il vous est possible de le faire sur chaque type de contenu.</p>
 <figure class="align-center" id="id2">
-<img alt="_images/PBIEMBEDDED.png" src="_images/PBIEMBEDDED.png" />
+<img alt="_images/acces_rapport.jpg" src="_images/acces_rapport.jpg" />
 <figcaption>
-<p><span class="caption-text"><em>Interactions entre les produits Power BI</em></span><a class="headerlink" href="#id2" title="Link to this image">#</a></p>
+<p><span class="caption-text"><em>ACCES A UN CONTENU</em></span><a class="headerlink" href="#id2" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
-</div></blockquote>
-<p>Power BI Embedded permet aux entreprises de créer des rapports et d’analyser des ensembles de données via <strong>leurs propres applications, portails ou pages web.</strong></p>
-<p>La fonctionnalité Power BI Embedded repose sur des API externes et, contrairement à Power BI Pro ou Power BI Premium, ne dispose pas d’un environnement permettant d’accéder aux rapports d’entreprise. En activant Power BI Embedded, les développeurs et sociétés de logiciels qui codent des applications, peuvent ajouter des rapports ou même programmer la fonctionnalité Power BI dans leurs propres applications.</p>
 </section>
-<section id="compatibilite-python-produits-power-bi">
-<h1>COMPATIBILITE PYTHON &amp; PRODUITS POWER BI<a class="headerlink" href="#compatibilite-python-produits-power-bi" title="Link to this heading">#</a></h1>
-<p>Seuls Power BI Service , Power BI Embedded et Power BI Desktop permettent d’enrichir les données via du code en R et Python.</p>
-<figure class="align-center" id="id3">
-<img alt="_images/python.png" src="_images/python.png" />
-<figcaption>
-<p><span class="caption-text"><em>Compatibilité entre python et les produits Power BI</em></span><a class="headerlink" href="#id3" title="Link to this image">#</a></p>
-</figcaption>
-</figure>
 </section>
 
         </article>
@@ -259,23 +329,15 @@ Les rapports sont distribués derrière le pare feu de l´organisation et non su
       <footer>
         
         <div class="related-pages">
-          <a class="next-page" href="pbi_types_acces.html">
-              <div class="page-info">
-                <div class="context">
-                  <span>Next</span>
-                </div>
-                <div class="title">TYPES D’ACCES SUR POWER BI</div>
-              </div>
-              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
-            </a>
-          <a class="prev-page" href="pbi_mobile.html">
+          
+          <a class="prev-page" href="pbi_autres.html">
               <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
               <div class="page-info">
                 <div class="context">
                   <span>Previous</span>
                 </div>
                 
-                <div class="title">POWER BI MOBILE</div>
+                <div class="title">POWER BI REPORT SERVER</div>
                 
               </div>
             </a>
@@ -297,8 +359,29 @@ Les rapports sont distribués derrière le pare feu de l´organisation et non su
         
       </footer>
     </div>
-    <aside class="toc-drawer no-toc">
+    <aside class="toc-drawer">
       
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">TYPES D’ACCES SUR POWER BI</a><ul>
+<li><a class="reference internal" href="#acces-a-un-workspace">ACCES A UN WORKSPACE</a></li>
+<li><a class="reference internal" href="#roles">ROLES</a></li>
+<li><a class="reference internal" href="#acces-a-un-rapport-un-dataset-un-tableau-de-bord">ACCES A UN RAPPORT - UN DATASET - UN TABLEAU DE BORD</a></li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
       
       
     </aside>

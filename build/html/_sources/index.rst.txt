@@ -115,6 +115,7 @@ Contenu
    pbi_service
    pbi_mobile
    pbi_autres
+   pbi_types_acces
  
 
 

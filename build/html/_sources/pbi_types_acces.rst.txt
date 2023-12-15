@@ -1,0 +1,126 @@
+TYPES D'ACCES SUR POWER BI
+==========================
+
+Selon les besoins des différents services, nous avons la possibilité de déterminer des accès à **quatre types de documents** :
+
+* Un **workspace**
+
+* Un **rapport** Power BI
+
+* Un **dataset**
+
+* Un **tableau de bord**
+
+La dernière étape de création d’un rapport Power BI repose dans sa **publication**.
+
+ Après construction d'un rapport dans « Desktop » et suite à sa publication en ligne, on peut ajouter **les droits d’accès**.
+
+ACCES A UN WORKSPACE
+--------------------
+
+Après la publication de votre rapport dans un workspace, vous pouvez vous rendre sur la version online et configurer **4 types d’accès**. Il est cependant bon de savoir que dès lors que vous ajoutez un utilisateur dans un workspace, ce dernier à un **accès total à tous les rapports de l’espace.**
+
+.. figure::  images/acces_workspace.jpg
+   :align:   center
+
+   *ROLE ACCES WORKSPACE*
+
+ROLES
+-----
+
+Il est possible d’attribuer un des **quatre rôles** suivants : 
+
+* ADMINISTRATEUR
+
+* MEMBRE
+
+* COLLABORATEUR
+
+* VISIONNEUSE
+
+
+#. **VISIONNEUSE** (Viewer)
+
+   * L’utilisateur a accès au rapport en **lecture seule**. 
+
+   * Il n’a accès qu’au rapport, et peut utiliser « Analyse in Excel » ou un « Live connection desktop » vers Services en ajoutant le droit de Build dans les autorisations. 
+
+   * **Ses accès** : 
+
+      * **Lire** les données stockées dans les flux de données des espaces de travail
+
+      * **Voir** et utiliser un élément
+
+#. **COLLABORATEUR** (Contributor)
+
+   * L’utilisateur peut **modifier** ou créer des rapports.
+
+   * **Ses accès** :
+
+      * Accès identique au Viewer
+
+      * Modifier les paramètres de connexion à la passerelle
+
+      * Planifier l’actualisation des données via la passerelle locale
+
+      * Créer des objectifs basés sur un jeu de données dans l’espace de travail
+
+      * Copier un rapport
+
+      * Créer un rapport dans un autre espace de travail à partir d’un jeu de données de cet espace de travail
+
+      * Publier des rapports sur l’espace de travail, supprimer du contenu
+
+      * Créer, modifier et supprimer du contenu dans l’espace de travail
+
+      * Proposer des tableaux de bord et des rapports sur la page d’accueil de collègues
+
+      * Mettre à jour une application (si autorisation) 
+
+#. **MEMBRE**
+
+   * L’utilisateur peut déployer le rapport
+
+   * **Ses accès** : 
+
+      * Accès indentique au Viewer et au Contributor
+
+      * Gérer les autorisations de jeu de données
+
+      * Proposer des applications sur la page d’accueil de collègues
+
+      * Permettre à d’autres utilisateurs de repartager des éléments
+
+      * Partager un élément ou une application
+
+      * Mettre à jour une application
+
+      * Publier, modifier et annuler la publication des autorisations d’une application
+
+      * Ajouter des membres ou d’autres rôles avec des autorisations inférieures
+
+#. **ADMINISTRATEUR**
+
+   * L’utilisateur a le contrôle du workspace, de son contenu et de ses membres.
+
+   * **Ses accès** : 
+
+      * Accès du Viewer, du Contributor et du Membre
+
+      * Autoriser les Contributors à mettre à jour l’application pour l’espace de travail
+
+      * Ajouter/supprimer des personnes, y compris d’autres administrateurs
+
+      * Mettre à jour et supprimer l’espace de travail
+
+ACCES A UN RAPPORT - UN DATASET - UN TABLEAU DE BORD
+----------------------------------------------------
+
+Il existe une deuxième méthode pour partager du contenu sur Power BI Services. 
+
+Celle-ci consiste à donner accès à qu’un seul élément, et non le workspace dans son ensemble. Il vous est possible de le faire sur chaque type de contenu.
+
+.. figure::  images/acces_rapport.jpg
+   :align:   center
+
+   *ACCES A UN CONTENU*

@@ -34,6 +34,11 @@ POWER BI EMBEDDED
 
    *Interactions entre les produits Power BI*
 
+Power BI Embedded permet aux entreprises de créer des rapports et d’analyser des ensembles de données via **leurs propres applications, portails ou pages web.**
+
+La fonctionnalité Power BI Embedded repose sur des API externes et, contrairement à Power BI Pro ou Power BI Premium, ne dispose pas d’un environnement permettant d’accéder aux rapports d’entreprise. En activant Power BI Embedded, les développeurs et sociétés de logiciels qui codent des applications, peuvent ajouter des rapports ou même programmer la fonctionnalité Power BI dans leurs propres applications.
+
+
 COMPATIBILITE PYTHON & PRODUITS POWER BI 
 ========================================
 
