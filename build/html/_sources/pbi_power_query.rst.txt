@@ -1,0 +1,67 @@
+POWER QUERY
+===========
+
+À quoi sert Power Query ?
+-------------------------
+
+**POWER QUERY** est un outil **d’extraction, de transformation et de chargement de données** (ETL pour Extract, Transform, Load) qui permet aux utilisateurs de connecter, d’importer et de préparer des données provenant de différentes sources pour une analyse ultérieure dans Excel, Power BI ou d’autres applications.
+
+.. figure::  images/power_query.png
+   :align:   center
+
+   *POWER QUERY*
+
+Comment fonctionne Power Query ?
+--------------------------------
+
+Power Query est directement intégré dans les outils Microsoft, tels que **Power BI ou Excel**. 
+
+Il est donc très facile d’utiliser Power Query dans Excel. Mais attention, sachez que cette solution n’est présente que dans les versions les plus récentes (c’est-à-dire depuis Excel 2016). 
+
+Si vous avez l’une de ces versions, il suffit de : 
+
+* Se rendre sur **l’onglet Données**
+
+* Aller dans la rubrique **Obtenir et transformer les données**
+
+* Cliquer sur **Obtenir des données**, puis utiliser l’éditeur Power Query. 
+
+* **L’éditeur de requête** s’ouvre alors dans une nouvelle fenêtre. 
+
+
+Quelles sont les fonctionnalités de Power Query ?
+-------------------------------------------------
+
+Afin de simplifier le travail d’analytics, Power Query vous fournit plusieurs **fonctionnalités visant à améliorer la qualité des données**.
+
+* **Importation des données**
+
+ Power Query peut importer des données d’une multitude de sources différentes : un classeur Excel, un fichier texte, une base de données SQL, un site web une, API… 
+
+
+* **Transformer les données**
+
+Une fois les données implémentées dans Power Query, vous pouvez les transformer comme bon vous semble. 
+
+Avant toute chose, il faut savoir que Power Query s’organise par colonne. L’objectif n’est donc pas de modifier les cellules individuellement, mais les colonnes. Cela permet de gagner du temps lors du traitement des données. 
+
+Grâce à Power Query, vous pourrez : 
+
+   * Remplacer certaines données textuelles en données numériques
+
+   * Supprimer des colonnes
+
+   * Changer l’en-tête
+
+   * Uniformiser le format de toutes les données
+
+Il s’agit d’une liste non exhaustive, puisque le tableau de bord Power Query vous propose plus de **300 options de transformation**. 
+
+* **Actualiser les données**
+
+La force Power Query, c’est sa **capacité de connexion**. En effet, cette solution peut se connecter à plusieurs sources pour **actualiser les données en temps réel**. Ainsi, dès qu’une modification apparaît sur le fichier original, vous pouvez le voir sur Excel. Pour cela, il suffit d’actualiser votre tableau. 
+
+.. figure::  images/power_query_2.jpg
+   :align:   center
+
+   *POWER QUERY DANS POWER BI*
