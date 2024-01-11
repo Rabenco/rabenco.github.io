@@ -114,9 +114,7 @@ Contenu
    pbi_desktop
    pbi_service
    pbi_mobile
-   pbi_power_query
    pbi_autres
-   pbi_types_acces
  
 
 

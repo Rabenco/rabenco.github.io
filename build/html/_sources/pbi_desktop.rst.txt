@@ -14,7 +14,7 @@ DANS POWER BI
 **Power BI Desktop** est une application à installer sur PC qui a pour vocation de collecter, de modéliser et d’analyser vos données ainsi que de créer des rapports Power BI.
 
 INTERFACE POWER BI DESKTOP
---------------------------
+==========================
 
 PRESENTATION INTERFACE POWER BI DESKTOP
 ---------------------------------------
@@ -56,8 +56,7 @@ FONCTIONNALITES POWER BI DESKTOP
 #. **Vue modèle** : Principalement utilisé lorsque le modèle de données utilise **plusieurs tables** et nécessite de mettre en place des relations entre elles.
 
 POWER QUERY EDITOR
-------------------
-
+===================
 **Power Query** est un moteur de **transformation** et de **préparation** des données. Power Query est fourni avec une interface graphique permettant d’obtenir des données à partir de sources, et avec **l’éditeur Power Query** qui permet d’appliquer des transformations. 
 
 .. figure::  images/power_query.jpg
@@ -74,37 +73,3 @@ POWER QUERY EDITOR
 #. **Paramètres de requête** : vue de la requête actuellement sélectionnée, avec des informations pertinentes, telles que le nom de la requête, ses étapes et divers indicateurs.
 
 #. **Barre d’état** : barre affichant des informations importantes pertinentes sur votre requête, telles que le temps d’exécution, le nombre total de colonnes et de lignes, et l’état de traitement. 
-
-LES 3 VERSIONS DE POWER BI DESKTOP
-----------------------------------
-
-Power BI Desktop est cette **application de bureau**, qui permet d’importer des données dans Power BI ou de se connecter à des données en connexion directe. C’est aussi cette application qui est utilisée pour créer les rapports. Les tableaux de bord, quant à eux, seront plutôt créés dans le service.
-
-#. Power BI Desktop à partir du **site Power BI de Microsoft** pour publier dans le **service**
-
-   Depuis le lancement de Power BI, il est possible de télécharger Power BI Desktop (jadis appelé Power BI Designer) à partir du **site Power BI de Microsoft**. Cette option est toujours valide et suppose que vous allez ensuite publier les rapports créés avec Power BI Desktop sur le service Power BI (portail web).
-
-
-   * .. warning::
-        On doit manuellement aller télécharger Power BI Desktop et l’activer. Comme des mises à jour sont lancées à tous les mois, cette action peut devenir irritante.
-
-
-#. Power BI Desktop à partir du **Store de Microsoft** pour publier dans le **service**
-
-   il est également possible de télécharger Power BI Desktop à partir du **Store de Microsoft**. Cette version suppose également que vous désirez publier vos rapports sur le service Power BI (portail web) et requière que vous utilisiez **Windows 10**.
-
-   * .. warning::
-        Mise à jour automatique. Si une mise à jour est problématique, on doit composer avec.   
-
-#. Power BI Desktop à partir du **Site de Microsoft** pour publier **localement**
-
-   Toutefois, si votre intention est de publier vos rapports Power BI Desktop **sur un serveur local** (Power BI Report Server), dans ce cas, il vous faut une version différente de Power BI Desktop. que vous pouvez retrouver sur le **site de Microsoft**.
-
-
-IMPORT VS DIRECT QUERY POUR IMPORTER DES DONNEES
-------------------------------------------------
-
-.. figure::  images/import_direct_query.jpg
-   :align:   center
-
-   *POWER BI DESKTOP*
